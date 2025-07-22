@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: preprocessed_data   # 스키마 이름
+    database: dev             # 데이터베이스 이름 (Redshift dbname)
+    schema: preprocessed_data
+    tables:
+      - name: pb_flag_table   # pb_flag
+      - name: rank_flag_table # rank_flag
+      - name: pb_product_table # pb_product
+      - name: rank_product_table # rank_product
