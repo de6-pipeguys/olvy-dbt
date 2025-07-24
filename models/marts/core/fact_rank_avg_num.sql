@@ -17,7 +17,7 @@ latest_records AS (
 
 SELECT
     category,
-    avgreview,
+    ROUND(avgreview, 1) AS avgreview,
     numofreviews,
     goodsname,
     createdat,
