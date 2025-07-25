@@ -23,6 +23,8 @@ SELECT
     createdat
 FROM latest_records
 WHERE avgreview IS NOT NULL
-AND numofreviews IS NOT NULL
-AND goodsname IS NOT NULL
-AND createdat IS NOT NULL
+    AND numofreviews IS NOT NULL
+    AND avgreview > 4
+    AND numofreviews != 0
+    AND goodsname IS NOT NULL
+    AND createdat IS NOT NULL

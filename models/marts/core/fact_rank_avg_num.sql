@@ -33,7 +33,9 @@ SELECT
 
 FROM latest_records
 WHERE avgreview IS NOT NULL
-AND numofreviews IS NOT NULL
-AND goodsname IS NOT NULL
-AND createdat IS NOT NULL
-AND rank IS NOT NULL
+    AND numofreviews IS NOT NULL
+    AND avgreview > 4 --AVG(avg가 4 이하는 없기때문)
+    AND numofreviews != 0
+    AND goodsname IS NOT NULL
+    AND createdat IS NOT NULL
+    AND rank IS NOT NULL
