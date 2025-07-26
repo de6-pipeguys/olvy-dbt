@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: preprocessed_data   
+    database: dev             
+    schema: preprocessed_data
+    tables:
+      - name: pb_flag_table   
+      - name: rank_flag_table 
+      - name: pb_product_table 
+      - name: rank_product_table 
+      - name: pb_reviewdetail_table 
+      - name: rank_reviewdetail_table
