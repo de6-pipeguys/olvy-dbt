@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: preprocessed_data
+    tables:
+      - name: rank_product_table

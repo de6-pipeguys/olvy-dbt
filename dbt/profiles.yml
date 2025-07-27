@@ -1,0 +1,12 @@
+dbtproject:
+  target: dev
+  outputs:
+    dev:
+      type: redshift
+      host: de6-team5-redshift-cluster.cvkht4jvd430.ap-northeast-2.redshift.amazonaws.com
+      user: pipeguys
+      password: 'XEXUDvzwww583&)'
+      port: 5439
+      dbname: dev
+      schema: dev
+      threads: 4
